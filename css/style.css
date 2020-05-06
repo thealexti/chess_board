@@ -1,39 +1,47 @@
-.box {
-    text-align: center;
-    background-color: aliceblue;
+#chess {
+    width: 240px;
+    height:240px;
+    background:#000;
 }
 
-.conteiner h1 {
-    text-align: center;
+#chess div {
+    width:30px;
+    height:30px;
+    float:left;
 }
 
-.contered {
-    display: inline-block;
-    margin: 0;
-}
-
-.chess-board {
-    border-spacing: 0;
-    border-collapse: collapse;
-    margin: auto;
-} 
-
-.chess-board th {
-    padding: 1em;
-}
-
-.chess-board td {
-    border: 1px solid;
-    width: 5em;
-    height: 5em;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.chess-board .white {
-    background-color: white;
-}
-
-.chess-board .black {
-    background-color: black;
+#chess div:nth-child(1),
+#chess div:nth-child(3),
+#chess div:nth-child(5),
+#chess div:nth-child(7),
+#chess div:nth-child(10),
+#chess div:nth-child(12),
+#chess div:nth-child(14),
+#chess div:nth-child(16),
+#chess div:nth-child(17),
+#chess div:nth-child(19),
+#chess div:nth-child(21),
+#chess div:nth-child(23),
+#chess div:nth-child(26),
+#chess div:nth-child(28),
+#chess div:nth-child(30),
+#chess div:nth-child(32),
+#chess div:nth-child(33),
+#chess div:nth-child(35),
+#chess div:nth-child(37),
+#chess div:nth-child(39),
+#chess div:nth-child(42),
+#chess div:nth-child(44),
+#chess div:nth-child(46),
+#chess div:nth-child(48),
+#chess div:nth-child(49),
+#chess div:nth-child(51),
+#chess div:nth-child(53),
+#chess div:nth-child(55),
+#chess div:nth-child(58),
+#chess div:nth-child(60),
+#chess div:nth-child(62),
+#chess div:nth-child(64)
+{
+     background-color: #ffffff;
 }
