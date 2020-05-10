@@ -1,39 +1,20 @@
-.box {
-    text-align: center;
-    background-color: aliceblue;
-}
-
-.conteiner h1 {
-    text-align: center;
-}
-
-.contered {
-    display: inline-block;
-    margin: 0;
-}
-
-.chess-board {
-    border-spacing: 0;
-    border-collapse: collapse;
+html {
+    background: white;
+    display: flex;
+  }
+  
+  body {
+    width: 100vmin;
+    height: 100vmin;
     margin: auto;
-} 
-
-.chess-board th {
-    padding: 1em;
-}
-
-.chess-board td {
-    border: 1px solid;
-    width: 5em;
-    height: 5em;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.chess-board .white {
-    background-color: white;
-}
-
-.chess-board .black {
-    background-color: black;
-}
+    border: 1px solid black;
+    box-sizing: border-box;
+    background: repeating-linear-gradient(90deg, white, white 12.5%, black 12.5%, black 25%);
+  }
+  
+  div {
+    height: 100%;
+    width: 100%;
+    background: repeating-linear-gradient(0deg, black, black 12.5%, white 12.5%, white 25%);
+    mix-blend-mode: difference;
+  }
