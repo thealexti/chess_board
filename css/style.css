@@ -1,39 +1,23 @@
-.box {
-    text-align: center;
-    background-color: aliceblue;
-}
-
-.conteiner h1 {
-    text-align: center;
-}
-
-.contered {
+#chessBoard{
     display: inline-block;
-    margin: 0;
+    border: 2px outset lightGray;
 }
 
-.chess-board {
-    border-spacing: 0;
-    border-collapse: collapse;
-    margin: auto;
-} 
-
-.chess-board th {
-    padding: 1em;
+#chessBoard div{
+    line-height: 1px;
 }
 
-.chess-board td {
-    border: 1px solid;
-    width: 5em;
-    height: 5em;
-    text-align: center;
-    vertical-align: middle;
+#chessBoard span{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
 }
 
-.chess-board .white {
-    background-color: white;
-}
-
-.chess-board .black {
+#chessBoard div:nth-child(odd) span:nth-child(even),
+#chessBoard div:nth-child(even) span:nth-child(odd){
     background-color: black;
+}
+#chessBoard div:nth-child(even) span:nth-child(even),
+#chessBoard div:nth-child(odd) span:nth-child(odd){
+    background-color: snow;
 }
